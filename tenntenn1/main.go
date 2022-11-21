@@ -2,10 +2,10 @@ package main
 
 import (
 	_ "embed"
-	"fmt"
+	. "fmt"
 )
 
 //go:embed main.go
 var src string
 
-func main() { fmt.Print(src) }
+func main() { Print(src) }
