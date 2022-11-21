@@ -3,13 +3,15 @@
 
 Goquine is a repository to share [Quine](https://en.wikipedia.org/wiki/Quine_(computing)) programs written in Go.
 
-## Rule
+## Regulations
 
-- Output to `stdout` (not `stderr`)
-- No 3rd party library
-- No `os.Open` or such
+- Output to `stdout`. (not `stderr`)
+- No 3rd party library.
+- No `os.Open` or such external input.
 
-## Contribute
+If you want to submit program which does not conform to these regulations, please submit to `unofficial/<yourname> + positive integer/main.go`.
+
+## Contribution
 
 - create directory `<your name>+positive integer`
     - example: `nobishii1`
