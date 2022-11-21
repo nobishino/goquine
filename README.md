@@ -7,6 +7,7 @@ Goquine is a repository to share [Quine](https://en.wikipedia.org/wiki/Quine_(co
 
 - Output to `stdout` (not `stderr`)
 - No 3rd party library
+- No `os.Open` or such
 
 ## Contribute
 
@@ -18,14 +19,21 @@ Goquine is a repository to share [Quine](https://en.wikipedia.org/wiki/Quine_(co
 
 ## Current records
 
+```
+find ./*/main.go -type f | xargs -I{} wc -c {}
+     200 ./nobishii1/main.go
+     174 ./nobishii2/main.go
+     108 ./tenntenn1/main.go
+     151 ./tenntenn2/main.go
+```
+
 ### Shortest quine (with standard library)
 
-[tenntenn1](./tenntenn1/main.go) (110 bytes)
+[tenntenn1](./tenntenn1/main.go) (108 bytes)
 
 ### Shortest quine (with standard library, without embed)
 
-[nobishii2](./nobishii2/main.go) (174 bytes)
-
+[tenntenn2](./tenntenn2/main.go) (151 bytes)
 
 ### Shortest quine (without standard library)
 
