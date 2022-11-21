@@ -3,6 +3,11 @@
 
 Goquine is a repository to share [Quine](https://en.wikipedia.org/wiki/Quine_(computing)) programs written in Go.
 
+## Rule
+
+- Output to `stdout` (not `stderr`)
+- No 3rd party library
+
 ## Contribute
 
 - create directory `<your name>+positive integer`
