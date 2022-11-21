@@ -1,4 +1,4 @@
-name: Go fmt quine
+name: Go fmt & Quine Check
 
 on: [push]
 
