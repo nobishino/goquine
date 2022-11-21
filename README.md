@@ -27,6 +27,8 @@ find ./*/main.go -type f | xargs -I{} wc -c {}
      174 ./nobishii2/main.go
      108 ./tenntenn1/main.go
      151 ./tenntenn2/main.go
+find ./unofficial/*/main.go -type f | xargs -I{} wc -c {}
+     126 ./unofficial/tenntenn3/main.go
 ```
 
 ### Shortest quine (with standard library)
@@ -40,3 +42,7 @@ find ./*/main.go -type f | xargs -I{} wc -c {}
 ### Shortest quine (without standard library)
 
 NONE
+
+### Unofficial records(not conforming to the regulations)
+
+[unofficial/tenntenn3](./unofficial/tenntenn3/main.go) (126 bytes)
