@@ -30,3 +30,6 @@ jobs:
             fi
           }
           assert-nothing-changed go fmt ./...
+
+      - name: Quine checks
+        run: find ./*/main.go -type f | xargs -I{} sh -c 'go run {} > out && diff {} out'
