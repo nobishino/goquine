@@ -31,5 +31,8 @@ jobs:
           }
           assert-nothing-changed go fmt ./...
 
+      - name: Print file size
+        run: find ./*/main.go -type f | xargs -I{} wc -c {}
+
       - name: Quine checks
-        run: find ./*/main.go -type f | xargs -I{} sh -c 'go run {} > out && diff {} out'
+        run: find ./*/main.go -type f | xargs -I{} sh -c 'echo checking {} && go run {} > out && diff {} out'
