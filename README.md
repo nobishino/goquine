@@ -23,12 +23,15 @@ If you want to submit program which does not conform to these regulations, pleas
 
 ```
 find ./*/main.go -type f | xargs -I{} wc -c {}
+     150 ./cia-rana1/main.go
      200 ./nobishii1/main.go
      174 ./nobishii2/main.go
      108 ./tenntenn1/main.go
      151 ./tenntenn2/main.go
 find ./unofficial/*/main.go -type f | xargs -I{} wc -c {}
      126 ./unofficial/tenntenn3/main.go
+find ./unofficial/stderr/*/main.go -type f | xargs -I{} wc -c {}
+     137 ./unofficial/stderr/cia-rana2/main.go
 ```
 
 ### Shortest quine (with standard library)
