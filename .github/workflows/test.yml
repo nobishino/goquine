@@ -36,3 +36,9 @@ jobs:
 
       - name: Quine checks
         run: find ./*/main.go -type f | xargs -I{} sh -c 'echo checking {} && go run {} > out && diff {} out'
+
+      - name: Print file size(unofficial)
+        run: find ./unofficial/*/main.go -type f | xargs -I{} wc -c {}
+
+      - name: Quine checks(unofficial)
+        run: find ./unofficial/*/main.go -type f | xargs -I{} sh -c 'echo checking {} && go run {} > out && diff {} out'
