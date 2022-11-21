@@ -33,11 +33,11 @@ find ./unofficial/*/main.go -type f | xargs -I{} wc -c {}
 
 ### Shortest quine (with standard library)
 
-[tenntenn1](./tenntenn1/main.go) (108 bytes)
+- [tenntenn1](./tenntenn1/main.go) (108 bytes)
 
 ### Shortest quine (with standard library, without embed)
 
-[tenntenn2](./tenntenn2/main.go) (151 bytes)
+- [cia-rana1](./cia-rana1/main.go) (150 bytes)
 
 ### Shortest quine (without standard library)
 
@@ -45,4 +45,5 @@ NONE
 
 ### Unofficial records(not conforming to the regulations)
 
-[unofficial/tenntenn3](./unofficial/tenntenn3/main.go) (126 bytes)
+- [unofficial/tenntenn3](./unofficial/tenntenn3/main.go) (126 bytes, using external input)
+- [unofficial/stderr/cia-rana2](./unofficial/stderr/cia-rana2/main.go) (137 bytes, using stderr instead of stdout)
