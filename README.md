@@ -1,4 +1,4 @@
-https://github.com/nobishino/goquine/actions/workflows/test.yml/badge.svg
+![Test](https://github.com/nobishino/goquine/actions/workflows/test.yml/badge.svg)
 # Goquine
 
 Goquine is a repository to share [Quine](https://en.wikipedia.org/wiki/Quine_(computing)) programs written in Go.
