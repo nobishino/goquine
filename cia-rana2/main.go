@@ -1,9 +1,9 @@
 package main
 
-func main() { p += "\x60"; print(p, p, "\n") }
+func main() { a += "\x60"; print(a, a, "\n") }
 
-var p = `package main
+var a = `package main
 
-func main() { p += "\x60"; print(p, p, "\n") }
+func main() { a += "\x60"; print(a, a, "\n") }
 
-var p = `
+var a = `
