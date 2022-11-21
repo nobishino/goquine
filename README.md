@@ -15,6 +15,9 @@ Goquine is a repository to share [Quine](https://en.wikipedia.org/wiki/Quine_(co
 
 ### Shortest quine (with standard library)
 
+[tenntenn1](./tenntenn1/main.go) (110 bytes)
+### Shortest quine (with standard library, without embed)
+
 [nobishii2](./nobishii2/main.go)
 
 ### Shortest quine (without standard library)
