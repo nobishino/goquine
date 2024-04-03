@@ -22,7 +22,7 @@ If you want to submit program which does not conform to these regulations, pleas
 ## Current records
 
 ```
-% find ./*/main.go -type f | xargs -I{} wc -c {}
+find ./*/main.go -type f | xargs -I{} wc -c {}
      150 ./cia-rana1/main.go
      125 ./haruyama480/main.go
      153 ./haruyama481/main.go
