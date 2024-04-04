@@ -5,7 +5,7 @@ import (
 	. "fmt"
 )
 
-//go:embed main.go
-var src string
+//go:embed *
+var s string
 
-func main() { Print(src) }
+func main() { Print(s) }
